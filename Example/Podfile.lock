@@ -1,0 +1,16 @@
+PODS:
+  - NielsenAppSDK (0.1.0)
+
+DEPENDENCIES:
+  - NielsenAppSDK (from `../`)
+
+EXTERNAL SOURCES:
+  NielsenAppSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NielsenAppSDK: c98f534fb8feaccc7731585772779aab4d9b2e87
+
+PODFILE CHECKSUM: 1089e7e868d49d1f864d82f21d6a19a37830020d
+
+COCOAPODS: 1.12.1

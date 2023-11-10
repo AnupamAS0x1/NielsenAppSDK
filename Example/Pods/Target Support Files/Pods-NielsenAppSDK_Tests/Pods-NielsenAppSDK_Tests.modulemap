@@ -1,0 +1,6 @@
+framework module Pods_NielsenAppSDK_Tests {
+  umbrella header "Pods-NielsenAppSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089974C88A59D96141710E5B750B2C0C /* Pods-NielsenAppSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B57B38E21BFC3EEDCB1783D9F310CAA /* Pods-NielsenAppSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36B36891C246B261C5AD338A7F1CC58F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3A58C8D8394864080A799D3C76E7A282 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8544CD3B8A8B4C2484C12EDB42A46B /* ReplaceMe.swift */; };
+		6102C6BC5C257FDA70C9CAB69AEAAC38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6A8E3A760A23AC7A182DACF8583E9EBB /* NielsenAppSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D97DD288B778F2F20626DF80788A6119 /* NielsenAppSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7916C48C42BC181B48A97822F0BE23F0 /* Pods-NielsenAppSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 231895B13E58336DC2824451C895C36E /* Pods-NielsenAppSDK_Tests-dummy.m */; };
+		81AC95ED04F06B850264C11700B7206F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8824A0FBE0EB7E69E34201336FE0D22F /* NielsenAppSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E43B981B7803647A2EB9069C6BAEB63C /* NielsenAppSDK-dummy.m */; };
+		885C46D95BA85C456CC9E7F27E51C0C8 /* Pods-NielsenAppSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B27B870BF14F0D4537386764BB0E5049 /* Pods-NielsenAppSDK_Example-dummy.m */; };
+		CE2D2EF72C0EC478A49DD2AD82BD18DD /* Pods-NielsenAppSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ACB41929AE429262887F59BA1CF08B /* Pods-NielsenAppSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67E4DF92714A9FF9121B5D612D4312A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B749CED51EA0E2F3A829096A485EE0FC;
+			remoteInfo = NielsenAppSDK;
+		};
+		BE88AFAE73F211121E8FB6D3B65961AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A00548CA745258473A308A56314482;
+			remoteInfo = "Pods-NielsenAppSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B66FABC2E1BA3B2B215CB3863532F8 /* Pods-NielsenAppSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NielsenAppSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B57B38E21BFC3EEDCB1783D9F310CAA /* Pods-NielsenAppSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NielsenAppSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		15ACB41929AE429262887F59BA1CF08B /* Pods-NielsenAppSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NielsenAppSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		1BA3750EDDF7433A4B0433C6DF0069A9 /* Pods-NielsenAppSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NielsenAppSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		231895B13E58336DC2824451C895C36E /* Pods-NielsenAppSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NielsenAppSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		2E8544CD3B8A8B4C2484C12EDB42A46B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NielsenAppSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5397F0CD6C22CE3B3449B51FB6901709 /* NielsenAppSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NielsenAppSDK.modulemap; sourceTree = "<group>"; };
+		5402008371DAFB2E4121356563BFECA8 /* Pods-NielsenAppSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NielsenAppSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		5B689061C4F4B755CC92B67DB677E2BB /* NielsenAppSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NielsenAppSDK-Info.plist"; sourceTree = "<group>"; };
+		5BC5E4A8DED0496809A7AE82D578F685 /* NielsenAppSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NielsenAppSDK; path = NielsenAppSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5C7DCF072377E04CA30175327FC490 /* Pods-NielsenAppSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NielsenAppSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6FE2818ABB893C8087A2A97721855954 /* NielsenAppSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NielsenAppSDK.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B208F787373F54D2659C61DA248016D /* Pods-NielsenAppSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NielsenAppSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		94E9131F0E76E60987A1B11D09334247 /* Pods-NielsenAppSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NielsenAppSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD1A2EB56F6F6A2366379A3D955B4FB /* NielsenAppSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NielsenAppSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFB8022C54115B9E77598C936185C968 /* NielsenAppSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NielsenAppSDK.debug.xcconfig; sourceTree = "<group>"; };
+		B27B870BF14F0D4537386764BB0E5049 /* Pods-NielsenAppSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NielsenAppSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		B377DB08EAB5F012998D72061C26648D /* Pods-NielsenAppSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NielsenAppSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		B89F3816ADFA39B2F3B6316EDDC21A53 /* Pods-NielsenAppSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NielsenAppSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0789AEA0A844A7F7815FF3E3A4D59AB /* Pods-NielsenAppSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NielsenAppSDK_Example"; path = Pods_NielsenAppSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E5988EBDD6DD3D4C1B068F1919DCB7 /* Pods-NielsenAppSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NielsenAppSDK_Example.modulemap"; sourceTree = "<group>"; };
+		D8B10256F0BCE43240100E6847780309 /* Pods-NielsenAppSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NielsenAppSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D97DD288B778F2F20626DF80788A6119 /* NielsenAppSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NielsenAppSDK-umbrella.h"; sourceTree = "<group>"; };
+		E1EC964A6099EAE4857420DE72E7D540 /* Pods-NielsenAppSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NielsenAppSDK_Tests"; path = Pods_NielsenAppSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43B981B7803647A2EB9069C6BAEB63C /* NielsenAppSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NielsenAppSDK-dummy.m"; sourceTree = "<group>"; };
+		EBA6ECF03CF611C0901273B354A8B8FD /* Pods-NielsenAppSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NielsenAppSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0E0C0CDA9FF5203B48F0BE95EA9C2E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2B38310D673932BBFA776B3A16AD268 /* NielsenAppSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NielsenAppSDK-prefix.pch"; sourceTree = "<group>"; };
+		F4BD2AFB7DC36D0CBFB1BCAFDCBB72BC /* Pods-NielsenAppSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NielsenAppSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F99CF9B763E9A8356352794B29B71B22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F9AC5FB21B450FE6E55E720BF1D355CB /* Pods-NielsenAppSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NielsenAppSDK_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946AEA1955131F1E3A0A716D3DD5F994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B36891C246B261C5AD338A7F1CC58F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F0711C73F5E382DE7B9FCE5B58350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AC95ED04F06B850264C11700B7206F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63E5CD81D265EDBA9257153F05885A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6102C6BC5C257FDA70C9CAB69AEAAC38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6D0FCB1E1131FB9EEA78E5AFEB7EB2 /* Pods-NielsenAppSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5988EBDD6DD3D4C1B068F1919DCB7 /* Pods-NielsenAppSDK_Example.modulemap */,
+				F4BD2AFB7DC36D0CBFB1BCAFDCBB72BC /* Pods-NielsenAppSDK_Example-acknowledgements.markdown */,
+				07B66FABC2E1BA3B2B215CB3863532F8 /* Pods-NielsenAppSDK_Example-acknowledgements.plist */,
+				B27B870BF14F0D4537386764BB0E5049 /* Pods-NielsenAppSDK_Example-dummy.m */,
+				5F5C7DCF072377E04CA30175327FC490 /* Pods-NielsenAppSDK_Example-frameworks.sh */,
+				5402008371DAFB2E4121356563BFECA8 /* Pods-NielsenAppSDK_Example-Info.plist */,
+				15ACB41929AE429262887F59BA1CF08B /* Pods-NielsenAppSDK_Example-umbrella.h */,
+				1BA3750EDDF7433A4B0433C6DF0069A9 /* Pods-NielsenAppSDK_Example.debug.xcconfig */,
+				8B208F787373F54D2659C61DA248016D /* Pods-NielsenAppSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-NielsenAppSDK_Example";
+			path = "Target Support Files/Pods-NielsenAppSDK_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8423F0A9AECE3AF434FE2D2B6283CB77 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F99CF9B763E9A8356352794B29B71B22 /* LICENSE */,
+				9CD1A2EB56F6F6A2366379A3D955B4FB /* NielsenAppSDK.podspec */,
+				F0E0C0CDA9FF5203B48F0BE95EA9C2E4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A0C3845457B47E4B3654AC39B29EA031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC5E4A8DED0496809A7AE82D578F685 /* NielsenAppSDK */,
+				C0789AEA0A844A7F7815FF3E3A4D59AB /* Pods-NielsenAppSDK_Example */,
+				E1EC964A6099EAE4857420DE72E7D540 /* Pods-NielsenAppSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A79A13636C92373BACFDE8530558E3AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4DA1B30D4C0CDEEAEEA7D6C927DAB65 /* NielsenAppSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A79A13636C92373BACFDE8530558E3AC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A0C3845457B47E4B3654AC39B29EA031 /* Products */,
+				DEF726DC058B0914CD40F518ED6C3327 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4DA1B30D4C0CDEEAEEA7D6C927DAB65 /* NielsenAppSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2E8544CD3B8A8B4C2484C12EDB42A46B /* ReplaceMe.swift */,
+				8423F0A9AECE3AF434FE2D2B6283CB77 /* Pod */,
+				E0016A19D44767788FA7533BFB9FB907 /* Support Files */,
+			);
+			name = NielsenAppSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D829A01A23B4150FF5F4B059811EB60F /* Pods-NielsenAppSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC5FB21B450FE6E55E720BF1D355CB /* Pods-NielsenAppSDK_Tests.modulemap */,
+				EBA6ECF03CF611C0901273B354A8B8FD /* Pods-NielsenAppSDK_Tests-acknowledgements.markdown */,
+				B89F3816ADFA39B2F3B6316EDDC21A53 /* Pods-NielsenAppSDK_Tests-acknowledgements.plist */,
+				231895B13E58336DC2824451C895C36E /* Pods-NielsenAppSDK_Tests-dummy.m */,
+				B377DB08EAB5F012998D72061C26648D /* Pods-NielsenAppSDK_Tests-Info.plist */,
+				0B57B38E21BFC3EEDCB1783D9F310CAA /* Pods-NielsenAppSDK_Tests-umbrella.h */,
+				94E9131F0E76E60987A1B11D09334247 /* Pods-NielsenAppSDK_Tests.debug.xcconfig */,
+				D8B10256F0BCE43240100E6847780309 /* Pods-NielsenAppSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-NielsenAppSDK_Tests";
+			path = "Target Support Files/Pods-NielsenAppSDK_Tests";
+			sourceTree = "<group>";
+		};
+		DEF726DC058B0914CD40F518ED6C3327 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E6D0FCB1E1131FB9EEA78E5AFEB7EB2 /* Pods-NielsenAppSDK_Example */,
+				D829A01A23B4150FF5F4B059811EB60F /* Pods-NielsenAppSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0016A19D44767788FA7533BFB9FB907 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5397F0CD6C22CE3B3449B51FB6901709 /* NielsenAppSDK.modulemap */,
+				E43B981B7803647A2EB9069C6BAEB63C /* NielsenAppSDK-dummy.m */,
+				5B689061C4F4B755CC92B67DB677E2BB /* NielsenAppSDK-Info.plist */,
+				F2B38310D673932BBFA776B3A16AD268 /* NielsenAppSDK-prefix.pch */,
+				D97DD288B778F2F20626DF80788A6119 /* NielsenAppSDK-umbrella.h */,
+				AFB8022C54115B9E77598C936185C968 /* NielsenAppSDK.debug.xcconfig */,
+				6FE2818ABB893C8087A2A97721855954 /* NielsenAppSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NielsenAppSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		871D0154CE9DC5469B01D9102A56B115 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8E3A760A23AC7A182DACF8583E9EBB /* NielsenAppSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309FE83C2D2728C53A576BED3EFCAB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089974C88A59D96141710E5B750B2C0C /* Pods-NielsenAppSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8129B52333522E6CEA7B0348F47F428 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2D2EF72C0EC478A49DD2AD82BD18DD /* Pods-NielsenAppSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3A00548CA745258473A308A56314482 /* Pods-NielsenAppSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A13CF655C2AD3219D142D8A195A76D /* Build configuration list for PBXNativeTarget "Pods-NielsenAppSDK_Example" */;
+			buildPhases = (
+				E8129B52333522E6CEA7B0348F47F428 /* Headers */,
+				4EB22246D7D7CA35D8E20AE8A86EDA50 /* Sources */,
+				946AEA1955131F1E3A0A716D3DD5F994 /* Frameworks */,
+				8C493A82182DBC5A4F39699C851E0BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B023B664CC58D8D48537F2DB06D125 /* PBXTargetDependency */,
+			);
+			name = "Pods-NielsenAppSDK_Example";
+			productName = Pods_NielsenAppSDK_Example;
+			productReference = C0789AEA0A844A7F7815FF3E3A4D59AB /* Pods-NielsenAppSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B749CED51EA0E2F3A829096A485EE0FC /* NielsenAppSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315E98DFA89AA46FC084A36C2A733729 /* Build configuration list for PBXNativeTarget "NielsenAppSDK" */;
+			buildPhases = (
+				871D0154CE9DC5469B01D9102A56B115 /* Headers */,
+				945CE33B9E5252C9463C22626A2D3430 /* Sources */,
+				B63E5CD81D265EDBA9257153F05885A9 /* Frameworks */,
+				2E3EC67A9FA641D663841BBEEA9D33EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NielsenAppSDK;
+			productName = NielsenAppSDK;
+			productReference = 5BC5E4A8DED0496809A7AE82D578F685 /* NielsenAppSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA521FFB9BBED981BE0D9A91503FF09D /* Pods-NielsenAppSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BED9BCF2B451CCC3DF6C7D5FE1D6916 /* Build configuration list for PBXNativeTarget "Pods-NielsenAppSDK_Tests" */;
+			buildPhases = (
+				B309FE83C2D2728C53A576BED3EFCAB6 /* Headers */,
+				0F9CB63B2403784BD8EADE2CDF52FBC8 /* Sources */,
+				AA2F0711C73F5E382DE7B9FCE5B58350 /* Frameworks */,
+				4847D1DCD8B627C337D5D5DE48B90274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20EA9D7AE85103241F8F83948C36F7A /* PBXTargetDependency */,
+			);
+			name = "Pods-NielsenAppSDK_Tests";
+			productName = Pods_NielsenAppSDK_Tests;
+			productReference = E1EC964A6099EAE4857420DE72E7D540 /* Pods-NielsenAppSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A0C3845457B47E4B3654AC39B29EA031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B749CED51EA0E2F3A829096A485EE0FC /* NielsenAppSDK */,
+				A3A00548CA745258473A308A56314482 /* Pods-NielsenAppSDK_Example */,
+				CA521FFB9BBED981BE0D9A91503FF09D /* Pods-NielsenAppSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3EC67A9FA641D663841BBEEA9D33EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4847D1DCD8B627C337D5D5DE48B90274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C493A82182DBC5A4F39699C851E0BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F9CB63B2403784BD8EADE2CDF52FBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7916C48C42BC181B48A97822F0BE23F0 /* Pods-NielsenAppSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB22246D7D7CA35D8E20AE8A86EDA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C46D95BA85C456CC9E7F27E51C0C8 /* Pods-NielsenAppSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945CE33B9E5252C9463C22626A2D3430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8824A0FBE0EB7E69E34201336FE0D22F /* NielsenAppSDK-dummy.m in Sources */,
+				3A58C8D8394864080A799D3C76E7A282 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12B023B664CC58D8D48537F2DB06D125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NielsenAppSDK;
+			target = B749CED51EA0E2F3A829096A485EE0FC /* NielsenAppSDK */;
+			targetProxy = 67E4DF92714A9FF9121B5D612D4312A8 /* PBXContainerItemProxy */;
+		};
+		C20EA9D7AE85103241F8F83948C36F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NielsenAppSDK_Example";
+			target = A3A00548CA745258473A308A56314482 /* Pods-NielsenAppSDK_Example */;
+			targetProxy = BE88AFAE73F211121E8FB6D3B65961AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1891849DEB0731B1866CDEC35C5A7E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB8022C54115B9E77598C936185C968 /* NielsenAppSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NielsenAppSDK/NielsenAppSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NielsenAppSDK/NielsenAppSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NielsenAppSDK/NielsenAppSDK.modulemap";
+				PRODUCT_MODULE_NAME = NielsenAppSDK;
+				PRODUCT_NAME = NielsenAppSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		192992BBE8704988ACB2EB5CBB1497D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE2818ABB893C8087A2A97721855954 /* NielsenAppSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NielsenAppSDK/NielsenAppSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NielsenAppSDK/NielsenAppSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NielsenAppSDK/NielsenAppSDK.modulemap";
+				PRODUCT_MODULE_NAME = NielsenAppSDK;
+				PRODUCT_NAME = NielsenAppSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34F1A4FDA508AA5589E8D408ECC7B512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B10256F0BCE43240100E6847780309 /* Pods-NielsenAppSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NielsenAppSDK_Tests/Pods-NielsenAppSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NielsenAppSDK_Tests/Pods-NielsenAppSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		817A1765A4B6785EFAE3ABB496755F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA3750EDDF7433A4B0433C6DF0069A9 /* Pods-NielsenAppSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NielsenAppSDK_Example/Pods-NielsenAppSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NielsenAppSDK_Example/Pods-NielsenAppSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9738CD83BD439DBC01ACB5C049CA833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B208F787373F54D2659C61DA248016D /* Pods-NielsenAppSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NielsenAppSDK_Example/Pods-NielsenAppSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NielsenAppSDK_Example/Pods-NielsenAppSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DB98F3CEC1B7510949533E714BA88040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E9131F0E76E60987A1B11D09334247 /* Pods-NielsenAppSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NielsenAppSDK_Tests/Pods-NielsenAppSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NielsenAppSDK_Tests/Pods-NielsenAppSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BED9BCF2B451CCC3DF6C7D5FE1D6916 /* Build configuration list for PBXNativeTarget "Pods-NielsenAppSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB98F3CEC1B7510949533E714BA88040 /* Debug */,
+				34F1A4FDA508AA5589E8D408ECC7B512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A13CF655C2AD3219D142D8A195A76D /* Build configuration list for PBXNativeTarget "Pods-NielsenAppSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817A1765A4B6785EFAE3ABB496755F5A /* Debug */,
+				A9738CD83BD439DBC01ACB5C049CA833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315E98DFA89AA46FC084A36C2A733729 /* Build configuration list for PBXNativeTarget "NielsenAppSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1891849DEB0731B1866CDEC35C5A7E26 /* Debug */,
+				192992BBE8704988ACB2EB5CBB1497D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module NielsenAppSDK {
+  umbrella header "NielsenAppSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

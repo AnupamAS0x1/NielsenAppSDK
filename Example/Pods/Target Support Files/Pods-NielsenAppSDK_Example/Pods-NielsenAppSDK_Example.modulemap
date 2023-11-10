@@ -1,0 +1,6 @@
+framework module Pods_NielsenAppSDK_Example {
+  umbrella header "Pods-NielsenAppSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -31,8 +31,8 @@
 		48CE8E26BD437054AD1EB68A /* Pods-NielsenAppSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NielsenAppSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-NielsenAppSDK_Example/Pods-NielsenAppSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		64E09D018C914866E664CBA5 /* Pods-NielsenAppSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NielsenAppSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-NielsenAppSDK_Tests/Pods-NielsenAppSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		89ABDF2C17953EF28CA7830B /* Pods_NielsenAppSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NielsenAppSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F6A304362EBF574486625AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A735B9B5C9DE7A95C147F923 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8F6A304362EBF574486625AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A735B9B5C9DE7A95C147F923 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EB604E002AFA807486186F58 /* Pods_NielsenAppSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NielsenAppSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67820348A760038D96B /* NielsenAppSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NielsenAppSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		ED83F68A20348A760038D96B /* NielsenAppSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NielsenAppSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F68E20348A760038D96B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		ED83F69020348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F099676945BD49FAB3889EE1 /* NielsenAppSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NielsenAppSDK.podspec; path = ../NielsenAppSDK.podspec; sourceTree = "<group>"; };
+		F099676945BD49FAB3889EE1 /* NielsenAppSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NielsenAppSDK.podspec; path = ../NielsenAppSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8C187DDF82457595BB1ACD5 /* Pods-NielsenAppSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NielsenAppSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-NielsenAppSDK_Example/Pods-NielsenAppSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +85,6 @@
 				018D2922E836272B3C70319C /* Pods-NielsenAppSDK_Tests.debug.xcconfig */,
 				64E09D018C914866E664CBA5 /* Pods-NielsenAppSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

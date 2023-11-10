@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NielsenAppSDK_Example' do
+  pod 'NielsenAppSDK', :path => '../'
+
+  target 'NielsenAppSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
